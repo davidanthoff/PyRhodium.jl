@@ -55,7 +55,7 @@ function __init__()
     def my_sa(*args, **kwargs):
         sa_result = rhodium.sa(*args, **kwargs)
         return SAResultContainer(sa_result)
-    """    
+    """
 end
 
 include("core.jl")
